@@ -13,7 +13,7 @@ client.on("error", (err) => {
   console.log(`Redis client not connected to the server: ${err.message}`);
 });
 
-// Set a new school value
+// Set a new school value in Redis
 function setNewSchool(schoolName, value) {
   client.set(schoolName, value, (err, reply) => {
     if (err) {

@@ -1,6 +1,6 @@
 import redis from "redis";
 
-// Creating a Redis client
+// Create a Redis client
 const client = redis.createClient();
 
 // Log a message when the client is connected to the Redis server

@@ -13,7 +13,7 @@ client.on("error", (err) => {
   console.log(`Redis client not connected to the server: ${err.message}`);
 });
 
-// Create a hash in Redis with the key and values
+// Create a hash in Redis with the specified key and values
 function createHash() {
   const hashKey = "HolbertonSchools";
   client.hset(hashKey, "Portland", 50, redis.print);
