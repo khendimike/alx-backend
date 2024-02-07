@@ -23,9 +23,3 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to build a basic Express app interacting with a Redis server
 - How to the build a basic Express app interacting with a Redis server and queue
 
-
-
-## :pencil: **Author**
-### :man: Yidnekachew Bantrga
-- [Github](https://github.com/Yidne21)
-- [Linkedin](https://www.linkedin.com/in/yidnekachew-bantrga-801376234/)
